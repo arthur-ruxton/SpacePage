@@ -1,11 +1,10 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import './App.css';
-import About from './components/About';
-import Home from './components/Home';
-import Nav from './components/Nav';
-import NotFound from './components/NotFound';
-import SpaceList from './components/SpaceList';
-import SpacePeople from './components/SpacePeople';
+import About from './componentsArt/About';
+import Home from './componentsArt/Home';
+import Nav from './componentsArt/Nav';
+import NotFound from './componentsArt/NotFound';
+import SpaceList from './componentsArt/SpaceList';
 
 function App() {
   return (
@@ -17,7 +16,6 @@ function App() {
       <main>
         <Switch>
           <Route path='/articles' component={SpaceList} />
-          <Route path='/people' component={SpacePeople} />
           <Route exact path='/' component={Home} />
           <Route path='/about' component={About} />
           <Route component={NotFound} />
