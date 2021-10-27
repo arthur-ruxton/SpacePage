@@ -7,11 +7,11 @@ const SpaceCard = ({
 }) => {
   return (
     <div className='cardsDiv'>
-      <div className='cardText'>
+      <div className='cardsText'>
         <h2><a href={url}> {title}</a> </h2>
         <p> {summary} </p>
       </div>
-      <picture>
+      <picture className='cardsPic'>
         <img src={imageUrl} alt={title} />
       </picture>
     </div>
