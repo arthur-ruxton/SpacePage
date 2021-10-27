@@ -15,7 +15,7 @@ const Nav = ({ isLoggedIn, setIsLoggedIn }) => {
             <Link to='/articles'>Articles</Link>
           </li>
           <li>
-              <Link to='/people'>People in Space</Link>
+              <Link to='/astronaut'>People in Space</Link>
           </li>
         </ul>
       </nav>

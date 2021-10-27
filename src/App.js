@@ -5,6 +5,7 @@ import Home from './componentsArt/Home';
 import Nav from './componentsArt/Nav';
 import NotFound from './componentsArt/NotFound';
 import SpaceList from './componentsArt/SpaceList';
+import AstronautList from './componentsAstro/AstronautList';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <main>
         <Switch>
           <Route path='/articles' component={SpaceList} />
+          <Route path='/astronaut' component={AstronautList} />
           <Route exact path='/' component={Home} />
           <Route path='/about' component={About} />
           <Route component={NotFound} />
