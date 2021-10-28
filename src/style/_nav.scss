@@ -4,7 +4,14 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    color: rgb(249, 250, 187);
     li {
+      list-style-type: none;
+      color: rgb(249, 250, 187);
     }
   }
+}
+
+li {
+  color: rgb(249, 250, 187);
 }
