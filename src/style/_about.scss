@@ -2,6 +2,11 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
+  .about-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   h1 {
     color: rgb(249, 250, 187);
     font-size: 2rem;
@@ -10,4 +15,9 @@ section {
     color: rgb(249, 250, 187);
     font-size: 1.5rem;
   }
+}
+.space-invade img {
+  width: 300px;
+  height: 300px;
+  align-self: center;
 }
