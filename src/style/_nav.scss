@@ -5,6 +5,17 @@ header {
   }
 }
 
+.App-header {
+  /* background-color: black; */
+  min-height: 17vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(249, 250, 187);
+}
+
 nav {
   width: 80vw;
   ul {

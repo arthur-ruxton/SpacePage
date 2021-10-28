@@ -24,6 +24,7 @@ const AstronautList = () => {
     return (
         <div className='total-astro-div'>
             <NumOfPeople people={people}/>
+            <p>Click name for info</p>
             <div className='astronaut-list-div'>
             {people.map((person) => (
                 <AstronautCard {...person}/>
