@@ -7,7 +7,7 @@ const About = () => {
           Developed by Arthur Ruxton and Ed Chamberlain to be the one and only place for space. 
         </p>
         </div>
-        <p> Click the space invader to play a game created by Hannah Hill </p>
+        <p>Click the icon to play Hannah Hill's Space Invaders</p>
           <div className='space-invade'>
             <a href="https://hannah-hill.github.io/space-invaders/" >
             <img src='https://i.imgur.com/mGxTAhk.png' alt="space invader"/>

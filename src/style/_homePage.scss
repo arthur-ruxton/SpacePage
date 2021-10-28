@@ -9,23 +9,25 @@
   color: rgb(249, 250, 187);
   h3 {
     text-align: center;
+    margin: 10px auto;
   }
-
   p {
     font-size: large;
+    margin: 10px auto;
   }
   .nasaPics {
-    width: 80vw;
+    width: 60vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-bottom: 30px;
-    .picOfTheDay {
-      max-height: 1200px;
-      max-width: 1200px;
-      border: 2px solid rgb(249, 250, 187, 0.6);
-      border-radius: 5px;
-      align-self: center;
-    }
   }
+}
+
+.picOfTheDay {
+  max-height: 600px;
+  max-width: 1200px;
+  border: 2px solid rgb(249, 250, 187, 0.6);
+  border-radius: 5px;
+  align-self: center;
 }

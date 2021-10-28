@@ -21,8 +21,8 @@ const BackgroundGetter = () => {
     return ( 
         <div className='nasaPics'>
             <p>NASA image of the day: </p>
-         <picture className='picOfTheDay'>   
-        <img src={backgroundImage} />
+         <picture>   
+        <img src={backgroundImage} className='picOfTheDay'/>
        </picture>
         </div>
     )
