@@ -1,6 +1,6 @@
 import {Link} from 'react-router-dom'
 
-const Nav = ({ isLoggedIn, setIsLoggedIn }) => {
+const Nav = () => {
   
     return (
       <nav>
@@ -12,7 +12,7 @@ const Nav = ({ isLoggedIn, setIsLoggedIn }) => {
             <Link to='/about'>About</Link>
           </li>
           <li>
-            <Link to='/articles'>Articles</Link>
+            <Link to='/articles'>News</Link>
           </li>
           <li>
               <Link to='/astronaut'>People in Space</Link>
