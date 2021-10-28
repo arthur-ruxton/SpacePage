@@ -9,10 +9,13 @@
   color: rgb(249, 250, 187);
   h3 {
     text-align: center;
+    margin: 0px;
+    margin-top: 5px;
   }
 
   p {
     font-size: large;
+    margin: 5px;
   }
   .nasaPics {
     width: 80vw;
@@ -20,9 +23,12 @@
     flex-direction: column;
     justify-content: center;
     margin-bottom: 30px;
-    .picOfTheDay {
-      max-height: 1200px;
-      max-width: 1200px;
+    p {
+      align-self: center;
+    }
+    .picOfTheDay img {
+      max-height: 1100px;
+      max-width: 1100px;
       border: 2px solid rgb(249, 250, 187, 0.6);
       border-radius: 5px;
       align-self: center;
