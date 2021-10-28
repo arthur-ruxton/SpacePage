@@ -3,9 +3,10 @@ body {
 }
 
 @import "article";
+@import "about";
 @import "nav";
 ///////////////////////////////// people in space css section
 
-@import 'astronautList';
-@import 'astronautCard';
-@import 'homePage';
+@import "astronautList";
+@import "astronautCard";
+@import "homePage";

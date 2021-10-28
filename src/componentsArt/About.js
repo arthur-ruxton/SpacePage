@@ -1,7 +1,7 @@
 const About = () => {
     return (
       <section>
-        <h1>About Space Face Race</h1>
+        <h1>About Space Page</h1>
         <p>
           Developed by Arthur Ruxton and Ed Chamberlain to be the one and only place for space. 
         </p>

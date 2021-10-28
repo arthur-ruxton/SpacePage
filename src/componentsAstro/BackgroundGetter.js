@@ -18,7 +18,14 @@ const BackgroundGetter = () => {
         getApodFromNasa()
     }, [])
 
-    return <img src={backgroundImage} />
+    return ( 
+        <div className='nasaPics'>
+            <p>NASA image of the day: </p>
+         <picture className='picOfTheDay'>   
+        <img src={backgroundImage} />
+       </picture>
+        </div>
+    )
 }
 
 export default BackgroundGetter
