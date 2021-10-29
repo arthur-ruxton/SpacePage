@@ -1,16 +1,27 @@
 import React from 'react'
 
-const baseUrl = 'https://en.wikipedia.org/wiki/'
+const wikiUrl = 'https://en.wikipedia.org/wiki/'
+const googUrl = 'http://images.google.com/images?q='
 
 const AstronautCard = ({name, craft}) => {
     return (
         <div className="card">
-            <a href={baseUrl + name} >
+          
             <p>{name}</p>
-            <p>Craft: {craft}</p>
+            <p className="middleP">Craft: {craft}</p>  
+            <div className="astrolinks">
+            <a href={wikiUrl + name} >
+            <p>Info</p>
+            </a>
+            <a href={googUrl+ name} >
+            <p>Images</p>
            </a>
+           </div>
+
         </div>
     )
 }
 
 export default AstronautCard
+
+

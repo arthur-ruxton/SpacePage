@@ -1,7 +1,7 @@
 .card {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   margin: 2%;
   padding: 20px;
   border: 2px solid rgb(249, 250, 187, 0.6);
@@ -19,5 +19,20 @@ a {
   p {
     color: rgb(249, 250, 187);
     text-align: center;
+  }
+}
+.middleP {
+  margin-top: 10px;
+}
+.astrolinks {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+
+  a p {
+    color: rebeccapurple;
+    font-size: 1.7rem;
+    margin-top: 10px;
   }
 }

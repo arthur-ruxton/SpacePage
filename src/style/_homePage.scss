@@ -1,10 +1,10 @@
 .home-section {
-  background-color: rgb(0, 0, 0, 0.9);
+  background-color: rgb(0, 0, 0, 0.825);
   color: white;
   height: 80vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  // justify-content: space-around;
   align-items: center;
 
   color: rgb(249, 250, 187);
@@ -19,20 +19,26 @@
     margin: 5px;
   }
   .nasaPics {
-    width: 80vw;
+    max-width: 80%;
+    max-height: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 30px;
+    margin-top: 30px;
     p {
       align-self: center;
     }
-    .picOfTheDay img {
-      max-height: 900px;
-      max-width: 900px;
-      border: 2px solid rgb(249, 250, 187, 0.6);
-      border-radius: 5px;
+    .picOfTheDay {
+      max-height: 100%;
+      max-width: 100%;
       align-self: center;
+      img {
+        max-height: 100%;
+        max-width: 100%;
+        border: 2px solid rgb(249, 250, 187, 0.6);
+        border-radius: 5px;
+        align-self: center;
+      }
     }
   }
 }
