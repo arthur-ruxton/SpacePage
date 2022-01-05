@@ -10,7 +10,7 @@ const About = () => {
         <p> Click the icon to play Hannah Hill's Space Invaders game </p>
           <div className='space-invade'>
             <a href="https://hannah-hill.github.io/space-invaders/" >
-            <img src='https://i.imgur.com/mGxTAhk.png' alt="space invader"/>
+            <img src='https://i.imgur.com/7sBwSSV.png' alt="space invader"/>
            </a>
           </div>
       </section>
