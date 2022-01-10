@@ -1,5 +1,5 @@
 import React from 'react'
-import ReactPlayer from 'react-player'
+// import ReactPlayer from 'react-player'
 import { useState, useEffect } from 'react'
 import axios from 'axios'
 
@@ -10,8 +10,8 @@ const BackgroundGetter = () => {
         const getApodFromNasa = async () => {
             try {
                 const response = await axios.get('https://api.nasa.gov/planetary/apod?api_key=8LEJIKt1cOHsejXWrTVhhS8t1K8mezS8gJPCyrVT')
-                setBackgroundImage(response.data.url)
-                console.log(response.data.url)
+                setBackgroundImage(response.data.hdurl)
+                console.log(response.data.hdurl)
             } catch (err) {
                 console.log(err)
             }
@@ -25,14 +25,14 @@ const BackgroundGetter = () => {
         <picture className='picOfTheDay'>   
           <img src={backgroundImage} alt=''/>
         </picture>
-        <div className="picOfTheDay">
+        {/* <div className="picOfTheDay">
           <ReactPlayer
             url={backgroundImage}
             controls
             width={640}
             height={360}
           />
-        </div>
+        </div> */}
       </div>
     )
 }
