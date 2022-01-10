@@ -10,10 +10,10 @@ const AstronautCard = ({name, craft}) => {
             <p>{name}</p>
             <p className="middleP">Craft: {craft}</p>  
             <div className="astrolinks">
-            <a target="_blank" href={wikiUrl + name} >
+            <a rel="noreferrer" target="_blank" href={wikiUrl + name} >
             <p>Info</p>
             </a>
-            <a target="_blank" href={googUrl+ name} >
+            <a rel="noreferrer" target="_blank" href={googUrl+ name} >
             <p>Images</p>
            </a>
            </div>

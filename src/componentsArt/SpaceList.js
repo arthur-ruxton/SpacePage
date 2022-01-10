@@ -12,7 +12,7 @@ const SpaceList = () => {
             setArticles([...articles, ...response.data])
         }
         getArticles()
-    }, [])
+    })
 
     return (
         <div className='spaceList'>
