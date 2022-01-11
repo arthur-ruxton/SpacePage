@@ -11,7 +11,7 @@ const AstronautList = () => {
     useEffect(() => {
         const getPeopleFromApi = async () => {
             try {
-                const response = await axios.get(process.env.ASTRONAUTS_KEY)
+                const response = await axios.get(`${process.env.REACT_APP_ASTRONAUTS}`)
                 console.log(response)
                 setPeople(response.data.people)
             } catch (err) { 
