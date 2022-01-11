@@ -11,7 +11,7 @@ const AstronautList = () => {
     useEffect(() => {
         const getPeopleFromApi = async () => {
             try {
-                const response = await axios.get('http://api.open-notify.org/astros.json')
+                const response = await axios.get(`${process.env.ASTRONAUTS}`)
                 console.log(response)
                 setPeople(response.data.people)
             } catch (err) { 
