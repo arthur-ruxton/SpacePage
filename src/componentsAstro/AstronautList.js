@@ -13,7 +13,7 @@ const AstronautList = () => {
             try {
                 const response = await axios.get('http://api.open-notify.org/astros.json')
                 console.log(response)
-                setPeople(response.data.people)
+                setPeople(response.people)
             } catch (err) { 
                 console.log(err)
             }
