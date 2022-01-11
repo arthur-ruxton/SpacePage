@@ -2,8 +2,18 @@
 # SpacePage :rocket:
 Two day paired project - a multipage React app that retrieves data from external APIs
 
+<details>
+  <summary>Images</summary>
+  <p>Homepage - NASA astronomy picture of the day :</p>
+  <img src=https://user-images.githubusercontent.com/89402596/148937819-a128de02-d83b-48f8-afb5-64c367bd6db0.png />
+   <p>News - astro science news articals :</p>
+  <img src=https://user-images.githubusercontent.com/89402596/148938070-521cc301-f5d8-4073-a612-6a2bd01b4384.png />
+   <p>People in Space :</p>
+  <img src=https://user-images.githubusercontent.com/89402596/148938271-040e564e-6ea2-4252-8149-a6b309482c31.png />
+</details>
+
 ## Overview :bulb:
-The site utilises three open-APIs and React-Router-DOM.  Casual science fans can view the latest astro science news articles, get updates on which astronauts are currently in space & see the NASA astronomy picture of the day.
+The site utilises three open-APIs and React-Router-DOM.  Casual science fans can view the latest astro science news articals, get updates on which astronauts are currently in space & see the NASA astronomy picture of the day.
 
 ## Tech :gear:
 ### React.js & SASS :
