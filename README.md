@@ -1,6 +1,5 @@
-# General Assembly - project 2 
-# SpacePage :rocket:
-Two day paired project - a multipage React app that retrieves data from external APIs
+# SpacePage :rocket: - 10 hour paired project
+A multipage React app that retrieves data from external APIs
 Live: [Space Page](https://space-page.netlify.app/)
 
 <details>
